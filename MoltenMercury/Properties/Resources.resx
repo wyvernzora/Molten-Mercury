@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chara_00001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_00001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diskette_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diskette_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file2_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file2_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lock_closed_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock_closed_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_up_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_up_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EN_US_Locale" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+
+&lt;localization&gt;
+&lt;locale name="English" code="en-us"&gt;
+      
+      &lt;!-- Main Menu --&gt;
+      &lt;string key="MMS_FILE"&gt;File&lt;/string&gt;
+      &lt;string key="MMS_SEL_CHAR"&gt;Select Character&lt;/string&gt;
+      &lt;string key="MMS_LOAD_CHAR_RES"&gt;Load Character Resources&lt;/string&gt;
+      &lt;string key="MMS_LOAD_CHAR_STATE"&gt;Load Character State&lt;/string&gt;
+      &lt;string key="MMS_SAVE_CHAR_STATE"&gt;Save Character State&lt;/string&gt;
+      &lt;string key="MMS_SAVE_CHAR_IMG"&gt;Save Character Image&lt;/string&gt;
+      &lt;string key="MMS_ABOUT"&gt;About&lt;/string&gt;
+      &lt;string key="MMS_ABOUT_MC"&gt;About MoltenChara...&lt;/string&gt;
+	       &lt;string key="MMS_TOOL"&gt;Utilities&lt;/string&gt;
+    &lt;string key="MMS_TOOL_CLEANUP"&gt;Cleanup Character Resources&lt;/string&gt;
+    &lt;string key="MMS_TOOL_VERIFY"&gt;Verify Character Resources&lt;/string&gt;
+    &lt;string key="MMS_TOOL_ADDPARTS"&gt;Add Character Parts...&lt;/string&gt;
+    &lt;string key="MMS_TOOL_ADDLEGACY"&gt;Add Legacy Parts...&lt;/string&gt;
+      &lt;!-- Chara Locked Strip --&gt;
+      &lt;string key="CL_TITLE"&gt;Character Locked&lt;/string&gt;
+      &lt;string key="CL_DESCR"&gt;You cannot modify a locked character in any way&lt;/string&gt;
+      &lt;string key="CL_HIDE"&gt;Hide&lt;/string&gt;
+      &lt;!-- Chara Patch Strip --&gt;
+      &lt;string key="CP_TITLE"&gt;This is a Patch File&lt;/string&gt;
+      &lt;string key="CP_DESCR"&gt;Patch files are intended to be deployed to an existing character. Directly browsing may result in character not being properly displayed.&lt;/string&gt;
+      &lt;!-- Character Tab --&gt;
+      &lt;string key="CT_TITLE"&gt;Character&lt;/string&gt;
+      &lt;string key="CT_SET_GROUPS"&gt;Character Part Groups&lt;/string&gt;
+      &lt;string key="CT_SETS"&gt;Character Parts&lt;/string&gt;
+      &lt;string key="CT_LV_NAME"&gt;Name&lt;/string&gt;
+      &lt;string key="CT_LV_FRAMES"&gt;Frames&lt;/string&gt;
+      &lt;string key="CT_LV_LAYER_ADJ"&gt;Layer Adj.&lt;/string&gt;
+      &lt;!--`Colors Tab --&gt;
+      &lt;string key="CO_TITLE"&gt;Colors&lt;/string&gt;
+      &lt;string key="CO_PROCS"&gt;Color Processors&lt;/string&gt;
+      &lt;string key="CO_SETTINGS"&gt;Processor Settings&lt;/string&gt;
+      &lt;string key="CO_BASE_COL"&gt;Base Color&lt;/string&gt;
+      &lt;string key="CO_NEW_COL"&gt;Preview&lt;/string&gt;
+      &lt;string key="CO_PRESETS"&gt;Presets                                 &lt;/string&gt;
+      &lt;string key="CO_ADV_OPTS"&gt;Advanced Options                 &lt;/string&gt;
+      &lt;string key="CO_HIDE_GROUP"&gt;Hide Selected Color Group&lt;/string&gt;
+      &lt;string key="CO_HA"&gt;H Adjustment&lt;/string&gt;
+      &lt;string key="CO_SA"&gt;S Adjustment&lt;/string&gt;
+      &lt;string key="CO_LA"&gt;L Adjustment&lt;/string&gt;
+      &lt;string key="CO_STEP"&gt;Step&lt;/string&gt;
+      &lt;string key="CO_MODE"&gt;Mode&lt;/string&gt;
+      &lt;string key="CO_M_ABS"&gt;Absolute&lt;/string&gt;
+      &lt;string key="CO_M_ADD"&gt;Addition&lt;/string&gt;
+      &lt;string key="CO_M_MUL"&gt;Multiplication&lt;/string&gt;
+      &lt;string key="CO_M_NONE"&gt;None&lt;/string&gt;
+      &lt;string key="OP_TITLE"&gt;Options&lt;/string&gt;
+      &lt;string key="OP_LANG"&gt;Language&lt;/string&gt;
+      &lt;string key="OP_CE"&gt;Color Editor Settings&lt;/string&gt;
+      &lt;string key="OP_CE_SHOW_ADV_INFO"&gt;Show Advanced Info in Color Editor&lt;/string&gt;
+      &lt;string key="OP_CE_SHOW_ADV_INFO_D"&gt;When checked, a text field containing encoded color processor configuration is shown. This option is particularly useful for making color presets.&lt;/string&gt;
+      &lt;string key="OP_CE_DIM_UNSEL"&gt;Dim Unselected Items&lt;/string&gt;
+      &lt;string key="OP_CE_DIM_UNSEL_D"&gt;When checked, all items that do not belong to the selected color group will be displayed as semitransparent. Checking this option will have a slight impact on performance of the software.&lt;/string&gt;
+      
+      &lt;!-- MISC --&gt;
+      &lt;string key="EXT_MCS"&gt;MoltenChara State&lt;/string&gt;
+      &lt;string key="EXT_MCPAK"&gt;MoltenChara Character Package&lt;/string&gt;
+      &lt;string key="EXT_MCRES"&gt;MoltenChara Resources&lt;/string&gt;
+      &lt;string key="EXT_CHARINI"&gt;character.ini File&lt;/string&gt;
+      
+      &lt;!-- MCU --&gt;
+      &lt;string key="MCU_TITLE"&gt;MCU Loader&lt;/string&gt;
+      &lt;string key="MCU_RUNNING_STATUS"&gt;Running MoltenChara Utilities...&lt;/string&gt;
+      &lt;string key="MCU_SUCCESS_STATUS"&gt;All actions successfully carried out!&lt;/string&gt;
+      &lt;string key="MCU_FAIL_STATUS"&gt;Actions were interrupted by an error!&lt;/string&gt;
+      &lt;string key="MCU_CLOSE_WINDOW"&gt;You may now close this window...&lt;/string&gt;
+      
+      &lt;!-- Error Messages --&gt;
+      &lt;string key="MCU_ACTION_FAILED"&gt;Action Failed!&lt;/string&gt;
+      &lt;string key="MCU_ERR"&gt;Error {0} - {1}
+
+Error Messages:
+{2}
+
+For more information on the error please refer to debug.log file.&lt;/string&gt;
+      
+      &lt;string key="ERR_701"&gt;Unable to load character state:\n\tDid not find resources for the character named {0}!&lt;/string&gt;
+      &lt;string key="ERR_702"&gt;Cannot load character state when there are no resources loaded!
+Try again after loading a character package or resources!&lt;/string&gt;
+      &lt;string key="ERR_703"&gt;Cannot load character state for a locked character!
+Try again after selecting another character that is not locked.&lt;/string&gt;
+      &lt;string key="ERR_704"&gt;Failed to load resources!
+Exception Message: &lt;/string&gt;
+      &lt;string key="ERR_601"&gt;You are not allowed to save the state of a locked character.&lt;/string&gt;
+      &lt;string key="ERR_602"&gt;Cannot add parts to a packaged or legacy character!
+      Consider converting to MoltenChara format or deploying package first!&lt;/string&gt;
+      &lt;string key="ERR_000"&gt;Sorry But...&lt;/string&gt;
+
+      &lt;string key="ERR_999"&gt;Please notify developers about this error!&lt;/string&gt;
+      &lt;string key="ERR_901"&gt;Please notify developers about this error!&lt;/string&gt;
+      &lt;string key="ERR_902"&gt;Please notify developers about this error!&lt;/string&gt;
+      &lt;string key="ERR_903"&gt;Please notify developers about this error!&lt;/string&gt;
+      &lt;string key="ERR_904"&gt;Please notify developers about this error!&lt;/string&gt;
+      &lt;string key="ERR_905"&gt;Please notify developers about this error!&lt;/string&gt;
+      &lt;string key="ERR_906"&gt;Please notify developers about this error!&lt;/string&gt;
+      &lt;string key="ERR_907"&gt;Please notify developers about this error!&lt;/string&gt;
+      &lt;string key="ERR_908"&gt;Please notify developers about this error!&lt;/string&gt;
+      &lt;string key="ERR_909"&gt;Input file not found, please check your input and retry!&lt;/string&gt;
+      &lt;string key="ERR_910"&gt;Output file not found, please check your input and retry!&lt;/string&gt;
+      &lt;string key="ERR_911"&gt;Package not supported, please retry with another package!&lt;/string&gt;
+      &lt;string key="ERR_912"&gt;Please notify developers about this error!&lt;/string&gt;
+      &lt;string key="ERR_913"&gt;Input file not supported, please retry with another file.&lt;/string&gt;
+      &lt;string key="ERR_914"&gt;Saved state not found, cannot execute trim on this resource set.&lt;/string&gt;
+      &lt;string key="ERR_915"&gt;Action cancelled by user&lt;/string&gt;
+      &lt;string key="ERR_916"&gt;Output file not supported, please retry with another file!&lt;/string&gt;
+      &lt;string key="ERR_917"&gt;Deployment failed due to unresolved file conflicts&lt;/string&gt;
+      &lt;string key="ERR_918"&gt;Archive generator reported errors&lt;/string&gt;
+      
+      
+      &lt;!-- About Dialog --&gt;
+      &lt;string key="ABOUT_MC"&gt;MoltenChara is my own reimplementation of キャラクターなんとか機 (an anime character maker). Original キャラクターなんとか機 was written by 緋龍華 麒麟 &amp;lt;http://khmix.sakura.ne.jp/&amp;gt;.
+
+This software is partially based on Firefly Framework by F.R.C.
+ColorRGB class was obtained from Internet thus original author is unknown.
+For the full list of references and licenses please refer to documentation that was distributed with this software.
+
+This software is released AS IS under terms on GNU General Public License version 3, or (at your option) any later version of the license as published by Free Software Foundation.
+
+If you did not receive a copy of the license with this software, it can be found on &amp;lt;http://fsf.org&amp;gt;. Please feel free to checkout the project repository &amp;lt;http://svn.wyvernzora.net/MoltenMercury&amp;gt;.
+      &lt;/string&gt;
+      &lt;string key="ABOUT_MCU"&gt;MoltenChara Utilities (MCU) is a multi-purpose developer utility for advanced users or character resource makers.
+
+MCU provides commands for converting data directories used by キャラクターなんとか機 into MoltenChara format, creating advanced MoltenChara resource packages and optimizing existing MoltenChara resource sets.
+
+MoltenChara main executable is linked to the MCU, therefore it cannot function alone. All references and licenses for MoltenChara also apply to MCU.
+
+This software is released AS IS under terms on GNU General Public License version 3, or (at your option) any later version of the license as published by Free Software Foundation.
+
+If you did not receive a copy of the license with this software, it can be found on &amp;lt;http://fsf.org&amp;gt;. Plrase feel free to checkout the project repository &amp;lt;http://svn.wyvernzora.net/MoltenMercury&amp;gt;.
+      &lt;/string&gt;
+      
+    &lt;/locale&gt;
+&lt;/localization&gt;
+</value>
+  </data>
+  <data name="send_box2_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\send_box2_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_down_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_down_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_00002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_00002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutMC" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AboutMCU" xml:space="preserve">
+    <value />
+  </data>
+</root>

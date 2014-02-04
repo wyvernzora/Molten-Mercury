@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MoltenMercury.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Character" Type="System.String" Scope="User">
+      <Value Profile="(Default)">default</Value>
+    </Setting>
+    <Setting Name="DimProcessor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MM|ST0.1|BC-8550435|HX0|SX0|LX0|AA0.3</Value>
+    </Setting>
+    <Setting Name="DefaultProcessor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MM|ST0.1|BC-8550435|HX0|SX0|LX0|AA1</Value>
+    </Setting>
+    <Setting Name="DefaultSkinProcessor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MM|ST0.295|BC-338486|HX0|SX0|LX0|AA1</Value>
+    </Setting>
+    <Setting Name="CEDimUnselected" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CEShowProcConfig" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DebugLoggingEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Locale" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en-us</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

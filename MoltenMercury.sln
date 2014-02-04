@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoltenMercury", "MoltenMercury\MoltenMercury.csproj", "{9B8AAF98-14B4-4FD7-93A2-58C406A0B11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCU", "MCU\MCU.csproj", "{7C610EA6-C58F-4FE5-AB08-668C4A65A7AA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MCU\\MCU.csproj
+		SccProjectName1 = MCU
+		SccLocalPath1 = MCU
+		SccProjectUniqueName2 = MoltenMercury\\MoltenMercury.csproj
+		SccProjectName2 = MoltenMercury
+		SccLocalPath2 = MoltenMercury
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B8AAF98-14B4-4FD7-93A2-58C406A0B11B}.Debug|x86.ActiveCfg = Debug|x86
+		{9B8AAF98-14B4-4FD7-93A2-58C406A0B11B}.Debug|x86.Build.0 = Debug|x86
+		{9B8AAF98-14B4-4FD7-93A2-58C406A0B11B}.Release|x86.ActiveCfg = Release|x86
+		{9B8AAF98-14B4-4FD7-93A2-58C406A0B11B}.Release|x86.Build.0 = Release|x86
+		{7C610EA6-C58F-4FE5-AB08-668C4A65A7AA}.Debug|x86.ActiveCfg = Debug|x86
+		{7C610EA6-C58F-4FE5-AB08-668C4A65A7AA}.Debug|x86.Build.0 = Debug|x86
+		{7C610EA6-C58F-4FE5-AB08-668C4A65A7AA}.Release|x86.ActiveCfg = Release|x86
+		{7C610EA6-C58F-4FE5-AB08-668C4A65A7AA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

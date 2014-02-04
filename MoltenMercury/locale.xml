@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<localization>
+
+  <locale name="简体中文" code="cn-zh">
+
+    <!-- Main Menu Strip -->
+    <string key="MMS_FILE">文件</string>
+    <string key="MMS_SEL_CHAR">选择角色</string>
+    <string key="MMS_LOAD_CHAR_RES">加载角色资源</string>
+    <string key="MMS_LOAD_CHAR_STATE">打开角色</string>
+    <string key="MMS_SAVE_CHAR_STATE">保存角色</string>
+    <string key="MMS_SAVE_CHAR_IMG">保存角色图像</string>
+    <string key="MMS_ABOUT">关于</string>
+    <string key="MMS_ABOUT_MC">关于 MoltenChara...</string>
+    <string key="MMS_TOOL">工具</string>
+    <string key="MMS_TOOL_CLEANUP">清理角色资源</string>
+    <string key="MMS_TOOL_VERIFY">检查角色资源</string>
+    <string key="MMS_TOOL_ADDPARTS">添加角色资源</string>
+    <string key="MMS_TOOL_ADDLEGACY">添加旧版本角色资源</string>
+
+    <!-- Chara Locked Strip -->
+    <string key="CL_TITLE">角色已被锁定</string>
+    <string key="CL_DESCR">被锁定的角色为只读，无法修改或保存</string>
+    <string key="CL_HIDE">隐藏</string>
+    
+    <!-- Chara Patch Strip -->
+    <string key="CP_TITLE">这是一个补丁文件</string>
+    <string key="CP_DESCR">补丁文件用于给现有角色添加部件而非直接浏览。直接浏览补丁文件可能会导致角色显示不正常。</string>
+
+
+    <!-- Character Tab -->
+    <string key="CT_TITLE">角色编辑器</string>
+    <string key="CT_SET_GROUPS">角色部件组</string>
+    <string key="CT_SETS">角色部件</string>
+    <string key="CT_LV_NAME">名称</string>
+    <string key="CT_LV_FRAMES">图像数</string>
+    <string key="CT_LV_LAYER_ADJ">图层修正</string>
+
+    <!--`Colors Tab -->
+    <string key="CO_TITLE">色彩编辑器</string>
+    <string key="CO_PROCS">色彩滤镜</string>
+    <string key="CO_SETTINGS">滤镜参数</string>
+    <string key="CO_BASE_COL">基色</string>
+    <string key="CO_NEW_COL">预览</string>
+    <string key="CO_PRESETS">预设                                 </string>
+    <string key="CO_ADV_OPTS">高级设置                           </string>
+    <string key="CO_HIDE_GROUP">隐藏选中的色彩组</string>
+    <string key="CO_HA">色相调整</string>
+    <string key="CO_SA">彩度调整</string>
+    <string key="CO_LA">亮度调整</string>
+    <string key="CO_STEP">滤镜容差</string>
+    <string key="CO_MODE">模式</string>
+    <string key="CO_M_ABS">绝对</string>
+    <string key="CO_M_ADD">相加</string>
+    <string key="CO_M_MUL">相乘</string>
+    <string key="CO_M_NONE">无修正</string>
+    
+    <!-- Options Tab -->
+    <string key="OP_TITLE">选项</string>
+    <string key="OP_LANG">界面语言</string>
+    <string key="OP_CE">色彩编辑器选项</string>
+    <string key="OP_CE_SHOW_ADV_INFO">显示高级滤镜信息</string>
+    <string key="OP_CE_SHOW_ADV_INFO_D">选中笨选项后，色彩编辑模式中将会在角色预览图下面显示包含滤镜设定的文本框。本选项尤其对编写角色脚本中色彩滤镜预设部分有用。</string>
+    <string key="OP_CE_DIM_UNSEL">未选中部件显示为半透明</string>
+    <string key="OP_CE_DIM_UNSEL_D">选中本选项后，色彩编辑模式中不属于当前色彩组的角色部件将会显示为半透明。选择本选项将会对软件的运行速度造成一定影响。</string>
+
+    <!-- MISC -->
+    <string key="EXT_MCS">MoltenChara State</string>
+    <string key="EXT_MCPAK">MoltenChara Character Package</string>
+    <string key="EXT_MCRES">MoltenChara Resources</string>
+    <string key="EXT_CHARINI">character.ini File</string>
+
+    <string key="MCU_TITLE">MCU加载器</string>
+    <string key="MCU_RUNNING_STATUS">正在运行MoltenChara开发者工具…</string>
+    <string key="MCU_SUCCESS_STATUS">所有操作成功完成！</string>
+    <string key="MCU_FAIL_STATUS">操作因为错误而中断！</string>
+    <string key="MCU_CLOSE_WINDOW">请关闭本窗口…</string>
+
+    <!-- Error Messages -->
+    <string key="MCU_ACTION_FAILED">操作失败</string>
+    <string key="MCU_ERR">错误 {0} - {1}
+
+错误信息：
+{2}
+
+更多详情请参见debug.log文件。</string>
+    <string key="ERR_701">无法加载角色配置文件：\n\t无法找到角色 {0} 的资源文件！</string>
+    <string key="ERR_702">未加载角色资源时无法加载角色配置！
+请在加载角色资源后再试！</string>
+    <string key="ERR_703">无法为已锁定角色加载角色配置！
+请选择其它未锁定角色后再试！</string>
+    <string key="ERR_704">角色资源读取失败！
+错误详细信息：</string>
+    <string key="ERR_601">无法保存已锁定角色的配置！</string>
+    <string key="ERR_000">很抱歉，但是…</string>"
+
+    <string key="ERR_999">请将此错误代码和详情告知开发者！</string>
+    <string key="ERR_901">请将此错误代码和详情告知开发者！</string>
+    <string key="ERR_902">请将此错误代码和详情告知开发者！</string>
+    <string key="ERR_903">请将此错误代码和详情告知开发者！</string>
+    <string key="ERR_904">请将此错误代码和详情告知开发者！</string>
+    <string key="ERR_905">请将此错误代码和详情告知开发者！</string>
+    <string key="ERR_906">请将此错误代码和详情告知开发者！</string>
+    <string key="ERR_907">请将此错误代码和详情告知开发者！</string>
+    <string key="ERR_908">请将此错误代码和详情告知开发者！</string>
+    <string key="ERR_909">无法读取文件，请检查文件后再试！</string>
+    <string key="ERR_910">无法读取文件，请检查文件后再试！</string>
+    <string key="ERR_911">不支持此文件包，请指定其它文件包再试！</string>
+    <string key="ERR_912">请将此错误代码和详情告知开发者！</string>
+    <string key="ERR_913">不支持此文件，请指定其它文件后再试！</string>
+    <string key="ERR_914">无法读取角色配置信息，无法对文件包执行缩减操作！</string>
+    <string key="ERR_915">用户取消操作</string>
+    <string key="ERR_916">不支持的文件，请指定其它文件后再试！</string>
+    <string key="ERR_917">因为未解决的文件冲突部署失败！</string>
+    <string key="ERR_918">文件包生成器报告错误！</string>
+
+    <!-- About Dialog -->
+    <string key="ABOUT_MC">MoltenChara 是本龙重新编写的キャラクターなんとか機（角色编辑器）。原始キャラクターなんとか機的作者为 緋龍華 麒麟 &lt;http://khmix.sakura.ne.jp/&gt;。
+
+本软件部分基于F.R.C.编写的萤火虫框架。
+ColorRGB类来自互联网，故原作者不祥。
+完整的引用列表和许可证请参见与本软件一同发布的说明文件。
+
+本软件以自由软件基金会发布的GNU公共许可证第三版或阁下所选择的更新版本的条件发布。
+
+若阁下未与本软件一同获得一份GNU公共许可证的拷贝，请访问&lt;http://fsf.org&gt;。欢迎阁下访问本项目的SVN库&lt;http://svn.wyvernzora.net/MoltenMercury&gt;</string>
+    <string key="ABOUT_MCU">MoltenChara Utilities (MCU) 是一个面向高级用户和素材作者发布的多用途工具。
+
+MCU的功能为：转换キャラクターなんとか機用资源文件夹为MoltenChara格式，打包角色资源为MoltenChara资源包和优化现有MoltenChara角色资源集等。
+
+MoltenChara主程序为MCU的函数库，所以MCU无法离开MoltenChara主程序运行。所有对MoltenChara使用的引用说明和许可证条件均对MCU适用。
+
+本软件以自由软件基金会发布的GNU公共许可证第三版或阁下所选择的更新版本的条件发布。
+
+若阁下未与本软件一同获得一份GNU公共许可证的拷贝，请访问&lt;http://fsf.org&gt;。欢迎阁下访问本项目的SVN库&lt;http://svn.wyvernzora.net/MoltenMercury&gt;</string>
+
+
+  </locale>
+  
+</localization>

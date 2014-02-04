@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CleanupHelp" xml:space="preserve">
+    <value>Usage:
+    mcu CLEANUP [options] target_file
+
+CLEANUP command deletes or moves all the unreferenced files from
+the specified resource set. 
+
+WARNING! IT'S STRONGLY RECOMMENDED THAT YOU BACKUP YOUR DATA BEFORE USING
+THIS OPTION!!!
+
+Following options are available:
+
+/move:[location]
+    Optional. Moves all detected files to the specified location.
+
+/delete
+    Optional. Deletes all detected files.
+
+/noconfirm
+    Optional. Suppresses delete/move confirmation.
+    
+/ignore:[ext1],[ext2]...
+    Optional. Specifies which file extensions to ignore when executing
+    cleanup command.
+
+/deepclean
+    Optional. Checks for hashes of all the image files and cross links
+    identical files deleting redundant copies. 
+    WARNING! Using this option may break backward compatibility 
+    of the resource set.
+    WARNING! Using this option may cause resources being very
+    disorganized.</value>
+  </data>
+  <data name="CopyrightNotice" xml:space="preserve">
+    <value>MoltenChara Utilities (mcu)
+2012 (C) Jieni Luchijinzhou a.k.a Aragorn Wyvernzora
+</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Available Commands are the following. To get detailed help on any of them,
+type /? as the first parameter to the command.
+
+HELP    - Displays this help message
+LEGACY  - Loads a legacy resource directory and generates .mcres file
+PACK    - Packs character resources into a single self-contained archive
+DEPLOY  - Deploys a packed archive to the specified directory
+CLEANUP - Deletes (moves) all unreferenced files in a resource set
+VERIFY  - Verifies the specified resource set for missing files</value>
+  </data>
+  <data name="LegacyHelp" xml:space="preserve">
+    <value>Usage:
+    mcu LEGACY [options] directory
+
+LEGACY command loads a directory used by CharaEX and generates a 
+.mcres file for its contents. Following options are available:
+
+/ini:[true|false]
+    Indicates whether to load character.ini or not. Default is false.
+
+/width:[int]
+    Specifies width of the character bitmap, ignored if /ini:true, mandatory 
+    if /ini:false
+
+/height:[int]
+    Specifies height of the character bitmap, ignored if /ini:true, mandatory
+    if /ini:false
+
+/charaname:[string]
+    Optional. Specifies a character name. Default value is the name of the 
+    loaded directory.
+</value>
+  </data>
+  <data name="NoArgsMessage" xml:space="preserve">
+    <value>This software is intended to serve as developer utility for MoltenChara.
+For a complete list of commands, type "mcu HELP".
+
+This software is a part of the Project Molten Mercury, which is released under 
+terms of GNU General Public License, either version 3, or (at your option) any 
+later version of the license as published by Free Software Foundation.
+
+Note: Individual named Raghavendran Shankar did not take any part neither
+in designing nor implementing this software solution.</value>
+  </data>
+  <data name="PackHelp" xml:space="preserve">
+    <value>Usage:
+    mcu PACK [options] filename
+
+PACK command packs character resources into a single self-contained archive
+file. Following options are available:
+
+/savestate
+    Optional. Saves the character state associated with specified resources
+    into the archive. Ignored if there is no state found.
+
+/trim
+    Optional. Saves only minimal set of resources needed to recreate the
+    character state associated with specified resources. 
+    Implies /savestate; results in error if there is no state found.
+
+/lock
+    Optional. Locks the generated archive so that when it's loaded into
+    MoltenChara no selection can be changed.
+
+/patch
+    Optional. Indicates that the package is a patch intended for either
+    deploying or merging into an existing character resource set.
+
+/verbose
+    Optional. Shows detailed messages from the archive generator.
+</value>
+  </data>
+  <data name="VerifyHelp" xml:space="preserve">
+    <value>Usage:
+    mcu VERIFY [options] target_file
+
+VERIFY command checks all files in the specified resource set for whether they
+exist. Following options are available:
+
+/deletemissing
+    Optional. Deletes character parts with missing files.
+
+/noconfirm
+    Optional. Suppresses delete confirmation.</value>
+  </data>
+  <data name="DeployHelp" xml:space="preserve">
+    <value>Usage:
+    mcu DEPLOY [options] patch_file target_file
+
+DEPLOY command deploys a MoltenChara package to the specified resource
+set. Behavior of this command may greatly change depending on the options
+supplied. Following options are available:
+
+/deployroot:[path]
+    Optional. Specifies the path where file from the package will be extracted.
+    %PATCHNAME% can be used to represent file name of the package.
+    Path must be relative to the root directory of the resource set.
+
+/checkhash
+    Optional. In case of collision checks for SHA256 of both files and reports
+    collision only if they differ. Otherwise original file will be kept.
+
+/collision:[prompt|error|rename|overwrite|skip]
+    Optional. Specifies program action in case of file collision.
+    Prompt (default) prompts user for specifying action for each collision.
+    Error will cause the action to be terminated with an error message.
+    Rename will attempt to rename the deployed file.
+    Overwrite will overwrite the existing file.
+    Skip will skip the colliding file extraction.
+
+/merge
+    Optional. Attempts to merge supplied patch files into the specified 
+    resource set. File collisions will be handled according to /collision option.
+    Ignores /deployroot option.
+
+/update
+    Optional. Attempts to update a deployed package.
+    Looks for parts by name and overwrites all existing files. Parts that don't
+    exist will be added.</value>
+  </data>
+</root>

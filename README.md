@@ -4,7 +4,7 @@
 
 **Project Molten Mercury** is a set of software for creating Japanese-anime-styled characters from various character parts. The project was inspired by a software named キャラクターなんとか機, which is also a character creator written by its Japanese author [緋龍華 麒麟](http://khmix.sakura.ne.jp/).
 
-![](/Images/mainwindow.png)
+![](https://raw2.github.com/jluchiji/Molten-Mercury/master/Images/mainwindow.PNG)
 
 Molten Mercury has numerous improvements over キャラクターなんとか機, which are:
 
